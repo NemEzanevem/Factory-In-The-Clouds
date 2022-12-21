@@ -1,0 +1,10 @@
+{
+  "badgeVisible": true,
+  "builtinServers": [
+    {
+      "name": "Offical Server",
+      "address": "127.0.0.1",
+      "forced": false
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+To refresh this file, delete it and run /reload command again! Last updated: Dec 6, 2022, 6:13:53 PM
+
+#supplementaries:adventure_map_destinations
+- #minecraft:village (from Supplementaries)
+- #minecraft:shipwreck (from Supplementaries)
+- #minecraft:mineshaft (from Supplementaries)
+- #minecraft:ocean_ruin (from Supplementaries)
+- #minecraft:ruined_portal (from Supplementaries)
+- minecraft:swamp_hut (from Supplementaries)
+- minecraft:bastion_remnant (from Supplementaries)
+- minecraft:jungle_pyramid (from Supplementaries)
+- minecraft:desert_pyramid (from Supplementaries)
+- minecraft:pillager_outpost (from Supplementaries)
+- minecraft:igloo (from Supplementaries)
+- minecraft:end_city (from Supplementaries)
+
+#minecraft:ocean_ruin
+- minecraft:ocean_ruin_cold (from Default)
+- minecraft:ocean_ruin_warm (from Default)
+
+#minecraft:mineshaft
+- minecraft:mineshaft (from Default)
+- minecraft:mineshaft_mesa (from Default)
+
+#bosses_of_mass_destruction:void_lily_target
+- bosses_of_mass_destruction:void_blossom (from Bosses of Mass Destruction (Beta))
+
+#minecraft:on_woodland_explorer_maps
+- minecraft:mansion (from Default)
+
+#bosses_of_mass_destruction:soul_star_target
+- bosses_of_mass_destruction:lich_tower (from Bosses of Mass Destruction (Beta))
+
+#minecraft:cats_spawn_in
+- minecraft:swamp_hut (from Default)
+
+#yigd:graveyard_structures
+- graveyard:small_graveyard? (from You're in Grave Danger)
+- graveyard:medium_graveyard? (from You're in Grave Danger)
+- graveyard:large_graveyard? (from You're in Grave Danger)
+- graveyard:small_desert_graveyard? (from You're in Grave Danger)
+
+#minecraft:cats_spawn_as_black
+- minecraft:swamp_hut (from Default)
+
+#minecraft:shipwreck
+- minecraft:shipwreck (from Default)
+- minecraft:shipwreck_beached (from Default)
+
+#minecraft:on_ocean_explorer_maps
+- minecraft:monument (from Default)
+
+#supplementaries:way_sign_destinations
+- #minecraft:village (from Supplementaries)
+- hauntedharvest:abandoned_farm? (from Supplementaries)
+- harvestseason:abandoned_farm? (from Supplementaries)
+- pokecube_legends:village? (from Supplementaries)
+- pokecube_legends:village/ocean? (from Supplementaries)
+- valhelsia_structures:castle? (from Supplementaries)
+- valhelsia_structures:castle_ruin? (from Supplementaries)
+- valhelsia_structures:small_castle? (from Supplementaries)
+- valhelsia_structures:tower_ruin? (from Supplementaries)
+- stoneholm:underground_village? (from Supplementaries)
+- blue_skies:gatekeeper_house? (from Supplementaries)
+- feywild:library? (from Supplementaries)
+- feywild:blacksmith? (from Supplementaries)
+- idas:bazaar? (from Supplementaries)
+- idas:castle? (from Supplementaries)
+- idas:farmhouse? (from Supplementaries)
+- idas:bearclaw_inn? (from Supplementaries)
+- idas:treetop_tavern? (from Supplementaries)
+- idas:wizardtower? (from Supplementaries)
+- idas:farmhouse? (from Supplementaries)
+- idas:fishermans_lodge? (from Supplementaries)
+- idas:beekeepers_house? (from Supplementaries)
+
+#minecraft:on_treasure_maps
+- minecraft:buried_treasure (from Default)
+
+#minecraft:eye_of_ender_located
+- minecraft:stronghold (from Default)
+
+#minecraft:ruined_portal
+- minecraft:ruined_portal_desert (from Default)
+- minecraft:ruined_portal_jungle (from Default)
+- minecraft:ruined_portal_mountain (from Default)
+- minecraft:ruined_portal_nether (from Default)
+- minecraft:ruined_portal_ocean (from Default)
+- minecraft:ruined_portal (from Default)
+- minecraft:ruined_portal_swamp (from Default)
+
+#minecraft:village
+- minecraft:village_plains (from Default)
+- minecraft:village_desert (from Default)
+- minecraft:village_savanna (from Default)
+- minecraft:village_snowy (from Default)
+- minecraft:village_taiga (from Default)
+
+#minecraft:dolphin_located
+- #minecraft:ocean_ruin (from Default)
+- #minecraft:shipwreck (from Default)

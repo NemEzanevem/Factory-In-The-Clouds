@@ -1,0 +1,121 @@
+{
+	id: "6001F5ED17A6DC97"
+	group: ""
+	order_index: 0
+	filename: "info"
+	title: "Info"
+	icon: "modern_industrialization:singularity"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.5d
+			subtitle: "So... Where do I start? oh.. yes this is an Expert Modpack Based Around Modern Industrialaztion in a Skyblock Enviroment!"
+			id: "308B35DBE815EBB7"
+			tasks: [{
+				id: "569B73B871532057"
+				type: "checkmark"
+				title: "About The Pack!"
+			}]
+		}
+		{
+			icon: "modern_industrialization:singularity"
+			x: 0.0d
+			y: -2.5d
+			shape: "diamond"
+			subtitle: "Modern Industrialazation is a similar technology mod to GregTech, there are some similarities but the Mod has taken a different approach then Gregtech, It's much less grindy.....(I'm Here To Change That!) 'Modern Industrialization Will Unlock The Core Of The Modpack And The Endgame Items for later....' 'This Will Be Your Last Technology Mod That You Will Unlock'"
+			dependencies: ["308B35DBE815EBB7"]
+			id: "073414250142E316"
+			tasks: [{
+				id: "0BE7485905BA4D2F"
+				type: "checkmark"
+				title: "What's Modern Industrialization?"
+			}]
+		}
+		{
+			icon: "create:mechanical_arm"
+			x: -3.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "This is just the good old Create mod...(wouldn't call it old tho) Anyways... If you dont know what Create is, It's a Technology Mod with its own form of Energy... Mechanical Stress it has an ingame \"wiki/tutorial\" if you click on a Create item in REI then you should be able to see \"W to Ponder\"  that should be able to help you with Create. 'Create Will Be Your Second Technology Mod Unlocked\""
+			dependencies: ["308B35DBE815EBB7"]
+			id: "4CCCBFC1B4BBFD5A"
+			tasks: [{
+				id: "5F181CEF8E70C569"
+				type: "checkmark"
+				title: "Create? but on Fabric"
+			}]
+		}
+		{
+			icon: "botania:apothecary_mossy"
+			x: 3.5d
+			y: 0.5d
+			shape: "diamond"
+			subtitle: "Botania is a Tech Mod based around magical flowers... you can use the base mod to get yourself some really cool items but also be annoyed by the slow Mana Generation(Mana is the \"Energy\" of Botania) I Will Be Using Botania to Gate Technology... Botania Will be Your First Technology mod"
+			dependencies: [
+				"308B35DBE815EBB7"
+				"6C76C6C057F09921"
+			]
+			id: "3240F751ED2703AD"
+			tasks: [{
+				id: "076C0310AB222C05"
+				type: "checkmark"
+				title: "Botania!"
+			}]
+		}
+		{
+			icon: "ae2:controller"
+			x: 0.0d
+			y: 3.5d
+			shape: "diamond"
+			subtitle: "AE2 Will Provide you with a Digital Form of Storage. Basicly You Can Use it to Store all of your Items and see/use them from one place. But Hey! Dont Leave Just Yet. Theres More To It Then Item Storage! With AE2 You Can Make Items Autocrafted by Requesting them... You Can Only Autocraft if you have set patterns either connected to Machines or Molecular Assemblers! 'Applied Energetics 2 is gated in Mid Game Progression'"
+			dependencies: ["308B35DBE815EBB7"]
+			id: "43D7BA03B4C1CA3D"
+			tasks: [{
+				id: "00744E110A552B4A"
+				type: "checkmark"
+				title: "Applied Energetics 2"
+			}]
+		}
+		{
+			icon: "botania:cosmetic_questgiver_mark"
+			x: -8.5d
+			y: -2.0d
+			subtitle: "If You Want to See The Recipe of Something... Then Look Forward To Using REI.(I'm Not Planning To Explain Every Recipe So Please FOR THE LOVE OF GOD USE REI!)"
+			id: "3F6D6C8C1FB69F99"
+			tasks: [{
+				id: "78699F43627DCCB1"
+				type: "checkmark"
+				title: "USE REI!"
+			}]
+		}
+		{
+			title: "Tinkers Construct On Fabric,,, Yes"
+			icon: "tconstruct:smeltery_controller"
+			x: 1.5d
+			y: -1.0d
+			subtitle: "Yes. You Saw That Right There Is In Infact Tinkers' Construct For Fabric.. It's Named Hephaestus For Legal Reasons.. (I disabled Smeltery Ore Doubling so dont expect much.) Tinkers Construct Unlocks After Botania"
+			dependencies: ["3240F751ED2703AD"]
+			id: "6A0BDF843B5481A1"
+			tasks: [{
+				id: "165ADA06CD104E76"
+				type: "checkmark"
+			}]
+		}
+		{
+			icon: "powah:dielectric_casing"
+			x: -2.0d
+			y: 2.5d
+			dependencies: [
+				"4CCCBFC1B4BBFD5A"
+				"43D7BA03B4C1CA3D"
+			]
+			id: "23AD6891B5BC9D4B"
+			tasks: [{
+				id: "7D3EF1BF9CFCFF4D"
+				type: "checkmark"
+			}]
+		}
+	]
+}

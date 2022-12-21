@@ -1,0 +1,431 @@
+{
+	id: "53A52ED26027303F"
+	group: "6EA5900C3A407CA0"
+	order_index: 0
+	filename: "the_start_of_a_journey"
+	title: "The Start Of A Journey...."
+	icon: "botania:white_mystical_flower"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Lets Begin! Shall We?"
+			x: 4.5d
+			y: -6.0d
+			subtitle: "I'm Assuming That You Already Looked Around on this Tiny Starter Island.... If Not Then No Problem.. If you look at the Side of the Island then you should be able to find some Roots. If you break them"
+			id: "79F44A29AD8FBACE"
+			tasks: [{
+				id: "65546189C9191AD0"
+				type: "item"
+				item: "botania:living_root"
+				count: 4L
+			}]
+		}
+		{
+			title: "It's Time For Wood!"
+			icon: "minecraft:oak_log"
+			x: 4.5d
+			y: -8.5d
+			shape: "square"
+			subtitle: "So Using These Roots in a 2x2 Pattern You Can Craft A Sapling By Sneaking Near The Sapling You Can Grow Them"
+			dependencies: ["79F44A29AD8FBACE"]
+			id: "73FD9C2CD64B8B73"
+			tasks: [
+				{
+					id: "32B813CBC76429F8"
+					type: "item"
+					icon: "minecraft:oak_sapling"
+					item: "minecraft:oak_sapling"
+					count: 2L
+				}
+				{
+					id: "619BA0490A093F6D"
+					type: "item"
+					item: "minecraft:oak_log"
+					count: 32L
+				}
+			]
+		}
+		{
+			title: "Yes.. Fertiler For Getting Flowers."
+			x: 2.0d
+			y: -6.0d
+			shape: "rsquare"
+			subtitle: "You are Starting With Botania After All... From One Fertilzer You Can Make Floral Fertizer It's For Obtaining Mystical Flowers which are required to start Botania"
+			dependencies: ["79F44A29AD8FBACE"]
+			id: "1C3298CB92A711A2"
+			tasks: [{
+				id: "469E304283C46AE5"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+			rewards: [{
+				id: "21FE1911A4F0F904"
+				type: "item"
+				item: "botania:fertilizer"
+				random_bonus: 4
+			}]
+		}
+		{
+			title: "Where Did My Planks Go?"
+			icon: "minecraft:oak_planks"
+			x: 3.0d
+			y: -10.0d
+			subtitle: "Well... Lucky For You, you Can still craft planks but you will need 2 slabs for one planks just like you would place them in world on top of each other"
+			dependencies: ["73FD9C2CD64B8B73"]
+			id: "472187465F52CB34"
+			tasks: [{
+				id: "1D8BF558A50AB732"
+				type: "item"
+				item: "minecraft:oak_planks"
+				count: 32L
+			}]
+			rewards: [{
+				id: "4BB780C5A6A36C59"
+				type: "item"
+				title: "Motivation"
+				icon: "minecraft:oak_planks"
+				item: "minecraft:oak_planks"
+				random_bonus: 15
+			}]
+		}
+		{
+			title: "Easy Stone? YES!"
+			icon: "minecraft:cobblestone"
+			x: 4.5d
+			y: -3.0d
+			subtitle: "By Using Shift-Right Click On Dirt or Grass you will get pebbles..... Cmon Get your Autoclicker"
+			dependencies: ["79F44A29AD8FBACE"]
+			id: "204D26537849E7A8"
+			tasks: [
+				{
+					id: "550AF51C5A015E17"
+					type: "item"
+					item: "botania:pebble"
+					count: 192L
+				}
+				{
+					id: "4412D1B1B4EC0A4F"
+					type: "item"
+					item: "minecraft:cobblestone"
+					count: 32L
+				}
+			]
+			rewards: [{
+				id: "39C86DEFF2EB85F4"
+				type: "item"
+				title: "A little... Motivation"
+				item: "minecraft:cobblestone"
+				random_bonus: 15
+			}]
+		}
+		{
+			title: "Do You Like Cutting Trees? :)"
+			icon: "compressedblocks:compressed_oak_x8"
+			x: 4.5d
+			y: -11.0d
+			subtitle: " No? Doesnt really matter.... If you get yourself 3(4x Compressed Oak Logs) your life will be a 100% easier"
+			dependencies: [
+				"73FD9C2CD64B8B73"
+				"73FD9C2CD64B8B73"
+				"472187465F52CB34"
+			]
+			id: "518A6D8CF742C1B9"
+			tasks: [
+				{
+					id: "67D563E64E9E152D"
+					type: "item"
+					item: "compressedblocks:compressed_oak_x1"
+				}
+				{
+					id: "657669835B2D4421"
+					type: "item"
+					item: "compressedblocks:compressed_oak_x2"
+				}
+				{
+					id: "0A5BA973DC3DB8B7"
+					type: "item"
+					icon: "compressedblocks:compressed_oak_x3"
+					item: "compressedblocks:compressed_oak_x3"
+				}
+				{
+					id: "42BF2FF9D3089CDF"
+					type: "item"
+					item: "compressedblocks:compressed_oak_x4"
+					count: 3L
+				}
+			]
+		}
+		{
+			title: "The Axe Of Labour!"
+			icon: "unify:labour_axe"
+			x: 6.0d
+			y: -10.0d
+			subtitle: "This Axe Is UNBREAKBLE! Use This For Your Trees!"
+			dependencies: [
+				"518A6D8CF742C1B9"
+				"73FD9C2CD64B8B73"
+			]
+			id: "5A40E56E5156F422"
+			tasks: [{
+				id: "0D931C50AF99C55D"
+				type: "item"
+				item: "unify:labour_axe"
+			}]
+		}
+		{
+			title: "Double Planks"
+			icon: "minecraft:oak_planks"
+			x: 4.5d
+			y: -13.0d
+			shape: "pentagon"
+			subtitle: "2x Plank OUTPUT! (shapeless craft 'Labour Axe'+'Any Log'"
+			dependencies: [
+				"5A40E56E5156F422"
+				"472187465F52CB34"
+			]
+			id: "1165B34EDA84A302"
+			tasks: [{
+				id: "1B90259ADD5D3F55"
+				type: "item"
+				item: "minecraft:oak_planks"
+			}]
+		}
+		{
+			title: "Furnace!"
+			icon: "minecraft:furnace"
+			x: 4.5d
+			y: -1.5d
+			subtitle: "Nothing Special, Just your good old vanilla furnace. Slightly more expensive..."
+			description: [
+				""
+				""
+			]
+			dependencies: ["204D26537849E7A8"]
+			id: "6F472A107A4EFAF2"
+			tasks: [
+				{
+					id: "75EF510816F4205F"
+					type: "item"
+					item: "minecraft:furnace"
+				}
+				{
+					id: "483833278B951E40"
+					type: "item"
+					item: "compressedblocks:compressed_cobblestone_x1"
+					count: 8L
+				}
+			]
+		}
+		{
+			title: "Mystical Flowers (Start Of Botania!)"
+			icon: "botania:white_double_flower"
+			x: 7.0d
+			y: -6.0d
+			subtitle: "Here Comes The 'Fun' Part Of Course If You Like Botania.... But For Now Use Floral Fertilizer To Get All Flowers"
+			dependencies: ["1C3298CB92A711A2"]
+			id: "4344FE6FC0D74CFB"
+			tasks: [
+				{
+					id: "336046034CD8D1DF"
+					type: "item"
+					item: "botania:white_mystical_flower"
+				}
+				{
+					id: "3A87DF6D030C38FD"
+					type: "item"
+					item: "botania:orange_mystical_flower"
+				}
+				{
+					id: "1EFCD66369A8FABE"
+					type: "item"
+					item: "botania:magenta_mystical_flower"
+				}
+				{
+					id: "5A77B9C66B43A0B8"
+					type: "item"
+					item: "botania:light_blue_mystical_flower"
+				}
+				{
+					id: "0CC04DF4210B84BA"
+					type: "item"
+					item: "botania:yellow_mystical_flower"
+				}
+				{
+					id: "4161A8C990BF79E4"
+					type: "item"
+					item: "botania:lime_mystical_flower"
+				}
+				{
+					id: "10908AFEC99508F9"
+					type: "item"
+					item: "botania:pink_mystical_flower"
+				}
+				{
+					id: "337468F2D22DCB07"
+					type: "item"
+					item: "botania:gray_mystical_flower"
+				}
+				{
+					id: "4ECCCF8F0C8ED70C"
+					type: "item"
+					item: "botania:light_gray_mystical_flower"
+				}
+				{
+					id: "23E74EAC28155B4A"
+					type: "item"
+					item: "botania:cyan_mystical_flower"
+				}
+				{
+					id: "2716F06E5D6BA1F0"
+					type: "item"
+					item: "botania:purple_mystical_flower"
+				}
+				{
+					id: "788125569C30F410"
+					type: "item"
+					item: "botania:blue_mystical_flower"
+				}
+				{
+					id: "456D8C9DC0CC1394"
+					type: "item"
+					item: "botania:brown_mystical_flower"
+				}
+				{
+					id: "10F651B063126504"
+					type: "item"
+					item: "botania:green_mystical_flower"
+				}
+				{
+					id: "102E0525BB94B6B1"
+					type: "item"
+					item: "botania:red_mystical_flower"
+				}
+				{
+					id: "67F33CC5EAE6D9EB"
+					type: "item"
+					item: "botania:black_mystical_flower"
+				}
+			]
+			rewards: [
+				{
+					id: "1CCF18B5A94CB9C2"
+					type: "item"
+					item: "botania:flower_bag"
+				}
+				{
+					id: "230C3490A444D8B9"
+					type: "item"
+					item: "botania:fertilizer"
+					count: 4
+					random_bonus: 12
+				}
+			]
+		}
+		{
+			title: "Mining Dimension? Yes!"
+			icon: "pureminingdimension:mining_dimension_portal_block"
+			x: 4.5d
+			y: 0.0d
+			shape: "pentagon"
+			subtitle: "Yes! So You Saw That Right. A Custom Mining Dimension Has Been Added To The Modpack, But Only For Vanilla Ores! The Modded Ores Will Be More Tricky."
+			description: ["(Right Click With The Stone Pickaxe To Activate The Portal!)"]
+			dependencies: ["6F472A107A4EFAF2"]
+			id: "0EAC0D12B175151C"
+			tasks: [
+				{
+					id: "4E2948F27A59A409"
+					type: "item"
+					item: "pureminingdimension:mining_dimension_portal_block"
+					count: 14L
+				}
+				{
+					id: "64A6A5BCD27CE2CF"
+					type: "item"
+					item: "botania:lime_petal"
+					count: 14L
+				}
+				{
+					id: "085D8E01E440C2D2"
+					type: "item"
+					item: "minecraft:infested_stone_bricks"
+					count: 112L
+				}
+			]
+			rewards: [{
+				id: "72F5B78A6DCC0AB9"
+				type: "item"
+				item: {
+					id: "minecraft:stone_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			title: "Ores!"
+			icon: "minecraft:raw_iron"
+			x: 4.5d
+			y: 2.5d
+			shape: "hexagon"
+			subtitle: "In The Mining Dimension. You Can Mine Some Ores This Is What You Have To Play Around With."
+			description: ["Smelting Ores With a Default Furnace Will Only Yield 1 Nugget. You Can Increase This Later"]
+			dependencies: ["0EAC0D12B175151C"]
+			id: "6C76C6C057F09921"
+			tasks: [
+				{
+					id: "560BF691710A0D34"
+					type: "item"
+					item: "minecraft:raw_iron"
+					count: 8L
+				}
+				{
+					id: "45CAF45C80D9178E"
+					type: "item"
+					item: "minecraft:raw_copper"
+					count: 24L
+				}
+				{
+					id: "1F9052B245E203D0"
+					type: "item"
+					item: "minecraft:raw_gold"
+					count: 8L
+				}
+				{
+					id: "18DF50658247CB8D"
+					type: "item"
+					item: "minecraft:coal"
+					count: 16L
+				}
+				{
+					id: "4F83BE7457E76216"
+					type: "item"
+					item: "minecraft:diamond"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "5CBA51D2A9083A45"
+					type: "item"
+					item: "minecraft:iron_nugget"
+					random_bonus: 15
+				}
+				{
+					id: "148759A03B672338"
+					type: "item"
+					item: "minecraft:gold_nugget"
+					random_bonus: 15
+				}
+				{
+					id: "5C7F62100EE3A0A4"
+					type: "item"
+					item: "minecraft:diamond"
+					random_bonus: 1
+				}
+			]
+		}
+	]
+}

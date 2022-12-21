@@ -1,0 +1,64 @@
+# LambDynamicLights configuration.
+# The dynamic lights mode
+mode = "fancy"
+
+# Light sources settings.
+[light_sources]
+	# Enable entities light source.
+	entities = true
+	# Enable block entities light source.
+	block_entities = true
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
+	# Creeper lighting mode. May be off, simple or fancy.
+	creeper = "simple"
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
+
+	[light_sources.settings]
+
+		[light_sources.settings.entities]
+
+			[light_sources.settings.entities.minecraft]
+				glow_item_frame = false
+				player = true
+				item = true
+				lightning_bolt = true
+				trident = true
+				potion = true
+				phantom = true
+				arrow = true
+				spider = true
+				zombie = true
+				experience_orb = true
+				skeleton = true
+				creeper = true
+				wither_skeleton = true
+				piglin_brute = true
+				firework_rocket = true
+				enderman = true
+				ender_dragon = true
+				dragon_fireball = true
+				area_effect_cloud = true
+
+			[light_sources.settings.entities.powah]
+				charged_snowball = true
+
+			[light_sources.settings.entities.twilightforest]
+				knight_phantom = true
+				snow_queen = true
+				wand_bolt = true
+				loyal_zombie = true
+				ice_arrow = true
+
+			[light_sources.settings.entities.ad_astra]
+				mogler = true
+				zombified_mogler = true
+				corrupted_lunarian = true
+
+			[light_sources.settings.entities.farmingforblockheads]
+				merchant = true
+
+			[light_sources.settings.entities.botania]
+				ender_air_bottle = true
+

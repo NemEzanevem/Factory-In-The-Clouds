@@ -1,0 +1,110 @@
+{
+	id: "7213DA743DD657FB"
+	group: "6EA5900C3A407CA0"
+	order_index: 2
+	filename: "botania"
+	title: "Technology 0.5"
+	icon: "botania:mana_pool"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Petal Apothecary!"
+			icon: "botania:apothecary_default"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "This Is Botania's Way Of Crafting Stuff But NOT The Only!. You Put Water In It Then Drop The Materials For The Crafting, Then You Drop Any Seed In It. (The Recipe Will Be Completed)"
+			id: "338A2249857299AB"
+			tasks: [{
+				id: "051DBD79B75ECDD4"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [{
+				id: "317DF4BCB02F1F0A"
+				type: "toast"
+				title: "Good Job"
+				icon: "botania:apothecary_default"
+				description: ""
+			}]
+		}
+		{
+			title: "The Pure Daisy!"
+			icon: "botania:pure_daisy"
+			x: 0.0d
+			y: 2.5d
+			subtitle: "Is It Really Pure? Anyways. To Craft With The Pure Daisy You Have To Put Blocks Or Liquids Around The Flower And It Will Magicly Convert It! (Just Wait A Minute)"
+			dependencies: [
+				"3240F751ED2703AD"
+				"338A2249857299AB"
+			]
+			id: "189B5852DADC405E"
+			tasks: [{
+				id: "6BB9C7585266C3DD"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+		}
+		{
+			title: "Water Power!"
+			icon: "botania:hydroangeas_motif"
+			x: 0.0d
+			y: -2.0d
+			subtitle: "This Is Your Only Flower To Generate Mana For Now! (This Flower Will Generate Mana If You Place It Near Water Sources, But It Will Decay After An Hour!)"
+			dependencies: ["338A2249857299AB"]
+			dependency_requirement: "all_started"
+			id: "484925B4855E2D85"
+			tasks: [{
+				id: "06AC4CABDE44D8A7"
+				type: "item"
+				item: "botania:hydroangeas"
+				count: 8L
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.5d
+			dependencies: ["189B5852DADC405E"]
+			id: "261E809A1E365ECD"
+			tasks: [{
+				id: "38030E34FCCF0E05"
+				type: "item"
+				item: "botania:livingrock"
+			}]
+		}
+		{
+			x: 2.5d
+			y: 2.5d
+			dependencies: ["189B5852DADC405E"]
+			id: "7CA22F2EACB3BF26"
+			tasks: [{
+				id: "057C59DA9D35A5A4"
+				type: "item"
+				item: "botania:livingwood_log"
+			}]
+		}
+		{
+			title: "You'll Get To See Some Create...."
+			icon: "unify:unfired_andesite_alloy"
+			x: 9.0d
+			y: 2.5d
+			subtitle: "I Hope You Like Grinding :skull: Anyways You Will Get To Use Some Machines Of Create..... (Not All, Dont You Think I Would Allo(y)W That"
+			id: "3F588F15BEBCF004"
+			tasks: [{
+				id: "035387B1C8E8D40A"
+				type: "item"
+				item: "unify:unfired_andesite_alloy"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			id: "0552014D1DEC51AD"
+			tasks: [{
+				id: "5BBBD5DD1D1A14F5"
+				type: "item"
+				item: "botania:diluted_pool"
+			}]
+		}
+	]
+}

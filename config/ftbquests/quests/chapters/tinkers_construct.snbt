@@ -1,0 +1,271 @@
+{
+	id: "248912F1D0C0AC33"
+	group: "6EA5900C3A407CA0"
+	order_index: 1
+	filename: "tinkers_construct"
+	title: "Low Level Tool Smith"
+	icon: "tconstruct:smeltery_controller"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "The Pattern."
+			icon: "tconstruct:pattern"
+			x: 2.0d
+			y: -1.0d
+			subtitle: "The Pattern Is Used In The Part Builder To Make Tool Parts."
+			description: ["Just A Few Iron Nuggies And Some Wood For A Pattern. Nothing Expensive"]
+			dependencies: ["6C76C6C057F09921"]
+			id: "24D6C949D87207CD"
+			tasks: [{
+				id: "1E26CBFD9ABB9598"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 8L
+			}]
+			rewards: [{
+				id: "3A238A377BFF9102"
+				type: "item"
+				title: "Skill Issue"
+				item: "minecraft:iron_nugget"
+			}]
+		}
+		{
+			x: -0.5d
+			y: 2.5d
+			dependencies: ["24D6C949D87207CD"]
+			id: "05AD36665870BD73"
+			tasks: [{
+				id: "545B0E59C1AD36F6"
+				type: "item"
+				item: {
+					id: "tconstruct:part_builder"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "57247CE11D0FB251"
+				type: "item"
+				item: {
+					id: "tconstruct:pick_head"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:seared_stone"
+					}
+				}
+			}]
+		}
+		{
+			title: "The Tinker Station"
+			icon: {
+				id: "tconstruct:tinker_station"
+				Count: 1b
+				tag: {
+					texture: "minecraft:oak_planks"
+				}
+			}
+			x: 4.5d
+			y: 2.5d
+			subtitle: "This Is Where You The Basic Tools Of Tinkers, You Can Also Apply Some Basic Abilities. This Is Also The Place Where You Repair Your Tools!"
+			description: [""]
+			dependencies: ["24D6C949D87207CD"]
+			id: "12D2F0AB0F2AF4D6"
+			tasks: [{
+				id: "29C099F76548A32A"
+				type: "item"
+				item: {
+					id: "tconstruct:tinker_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_planks"
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C4AF18F6004F2CA"
+				type: "item"
+				item: {
+					id: "tconstruct:tool_handle"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:wood"
+					}
+				}
+			}]
+		}
+		{
+			title: "The Crafting Station"
+			icon: {
+				id: "tconstruct:crafting_station"
+				Count: 1b
+				tag: {
+					texture: "minecraft:oak_log"
+				}
+			}
+			x: 2.0d
+			y: 2.5d
+			subtitle: "Nothing Crazy. It Does The Same As A Normal Crafting Table. But It Keeps The Items In Its Inventory"
+			dependencies: ["24D6C949D87207CD"]
+			id: "4B27A2FB660C6DB2"
+			tasks: [{
+				id: "72196527B65DC08D"
+				type: "item"
+				item: {
+					id: "tconstruct:crafting_station"
+					Count: 1b
+					tag: {
+						texture: "minecraft:oak_log"
+					}
+				}
+			}]
+			rewards: [{
+				id: "5852EFDDE21177DB"
+				type: "item"
+				item: {
+					id: "tconstruct:tool_binding"
+					Count: 1b
+					tag: {
+						Material: "tconstruct:seared_stone"
+					}
+				}
+			}]
+		}
+		{
+			title: "A Better Pickaxe... Finally..."
+			icon: {
+				id: "tconstruct:pickaxe"
+				Count: 1b
+				tag: {
+					tic_multipliers: { }
+					Damage: 0
+					tic_stats: {
+						"tconstruct:attack_damage": 1.5f
+						"tconstruct:harvest_tier": "minecraft:iron"
+						"tconstruct:durability": 225.0f
+						"tconstruct:mining_speed": 6.5f
+						"tconstruct:attack_speed": 1.2f
+					}
+					tic_materials: [
+						"tconstruct:seared_stone"
+						"tconstruct:wood"
+						"tconstruct:seared_stone"
+					]
+					tic_modifiers: [
+						{
+							name: "tconstruct:cultivated"
+							level: 1s
+						}
+						{
+							name: "tconstruct:piercing"
+							level: 1s
+						}
+						{
+							name: "tconstruct:searing"
+							level: 2s
+						}
+					]
+					tic_broken: 0b
+					tic_volatile_data: {
+						"tconstruct:tank_capacity": 20250L
+					}
+					tic_persistent_data: {
+						upgrades: 3
+						abilities: 1
+					}
+				}
+			}
+			x: 2.0d
+			y: 4.5d
+			subtitle: "I Wouldnt Call This A Much Better Pickaxe But By Adding Diamond And Redstone As An Ability You Can Have A Decent Pickaxe!"
+			description: ["Good Luck Repairing! (You Can Bypass This With Changed The Pickaxe Head With Something You Can Get)"]
+			dependencies: [
+				"4B27A2FB660C6DB2"
+				"05AD36665870BD73"
+				"12D2F0AB0F2AF4D6"
+			]
+			id: "2721BEA3D2AFCBD8"
+			tasks: [{
+				id: "7C0C0F7830CF35F0"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_multipliers: { }
+						tic_stats: {
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:durability": 225.0f
+							"tconstruct:mining_speed": 6.5f
+							"tconstruct:attack_speed": 1.2f
+						}
+						Damage: 0
+						tic_materials: [
+							"tconstruct:seared_stone"
+							"tconstruct:wood"
+							"tconstruct:seared_stone"
+						]
+						tic_modifiers: [
+							{
+								name: "tconstruct:cultivated"
+								level: 1s
+							}
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+							{
+								name: "tconstruct:searing"
+								level: 2s
+							}
+						]
+						tic_broken: 0b
+						tic_volatile_data: {
+							"tconstruct:tank_capacity": 20250L
+						}
+						tic_persistent_data: {
+							upgrades: 3
+							abilities: 1
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "173ED6732D15A36F"
+					type: "item"
+					title: "Mental Support"
+					item: "minecraft:iron_ingot"
+					random_bonus: 1
+				}
+				{
+					id: "75A4CE401CFF1593"
+					type: "item"
+					title: "You Deserve This"
+					item: "minecraft:cooked_beef"
+					random_bonus: 7
+				}
+			]
+		}
+		{
+			title: "From Here You Can Continue Making Low Level Tools. (For Now)"
+			x: 2.0d
+			y: 6.5d
+			dependencies: ["2721BEA3D2AFCBD8"]
+			id: "5DC3AAA2439D8123"
+			tasks: [{
+				id: "4661ED05BAF63308"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "1FD2F315EA7D5F3F"
+				type: "item"
+				title: "Something To Keep You Going"
+				item: "minecraft:raw_iron"
+			}]
+		}
+	]
+}
